@@ -1,0 +1,15 @@
+import firebase from "firebase";
+// import config from "../firebase_config.json";
+
+const config = {
+    apiKey: "AIzaSyB3dsqndlXTSQCqXO5qpUWfz7nosFf9ERQ",
+    authDomain: "the-video-game-library.firebaseapp.com",
+    databaseURL: "https://the-video-game-library-default-rtdb.firebaseio.com/",
+    projectId: "the-video-game-library",
+    storageBucket: "the-video-game-library.appspot.com",
+    messagingSenderId: "178246601420",
+    appId: "1:178246601420:web:917eb2940e1f06c9875069",
+    measurementId: "G-JXJGD40L4J"
+}
+
+export default firebase.initializeApp(config);
